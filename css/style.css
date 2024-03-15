@@ -1,0 +1,151 @@
+.padre
+{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 40% 20% auto;
+    grid-template-rows: 200px 100px auto auto;
+    margin:20px;
+    /*align-items: center;*/
+}
+.hijo
+{
+    background-color: goldenrod;
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    /*display: inline-block;*/
+}
+.hijo1
+{
+    background-color: rgb(48, 218, 32);
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    grid-column: 1/5;
+    /*display: inline-block;*/
+}
+.hijo2
+{
+    background-color: rgb(32, 82, 218);
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    grid-column: 1/3;
+    /*display: inline-block;*/
+}
+.hijo5
+{
+    background-color: rgb(32, 196, 218);
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    grid-column: 1/2;
+    /*display: inline-block;*/
+}
+.hijo6
+{
+    background-color: rgb(218, 44, 32);
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    grid-column: 2/5;
+    /*display: inline-block;*/
+}
+.hijo7
+{
+    background-color: rgb(218, 32, 193);
+    /*width: 150px;
+    height: 150px;*/
+    font-size: 50px;
+    grid-column: 1/4;
+    /*display: inline-block;*/
+}
+.hijo8
+{
+    background-color: rgb(255, 251, 9);
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    grid-column: 4/5;
+    /*display: inline-block;*/
+}
+.hijo9
+{
+    background-color: rgb(4, 243, 151);
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    grid-column: 4/5;
+    /*display: inline-block;*/
+}
+.principal
+{
+    background-color: green;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: black;
+}
+.contenedor1{
+    background-color: greenyellow;
+    margin: 10px;
+    height: 400px;
+    width: 180px;
+    position: sticky;
+    border-style: solid;
+    border-color: black;
+}
+.contenedor2{
+    background-color: greenyellow;
+    margin: 10px;
+    height: 400px;
+    width: 860px;
+    position: sticky;
+    border-style: solid;
+    border-color: black;
+}
+.contenedor3{
+    background-color: rgb(116, 187, 9);
+    height: 120px;
+    width: 760px;
+    position: sticky;
+    border-style: solid;
+    border-color: black;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.contenedor4{
+    background-color: rgb(116, 187, 9);
+    height: 120px;
+    width: 360px;
+    position: sticky;
+    border-style: solid;
+    border-color: black;
+    margin-top: 60px;
+    margin-left: 40px;
+    float: left;
+}
+.form
+{
+    height: auto;
+    width: auto;
+    background-color: aquamarine;
+}
